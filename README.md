@@ -1,6 +1,15 @@
+<!-- NOTES
+- npm init -y
+- npm install express mongoose dotenv
+- express: web framework; mongoose: db; dotenv: environment var
+- server.js: entry point for API
+- npm install nodemon -D : install dev dependencies so nodemon can listen to any chances in server.js
+- 
+-->
+
 <!-- PROJECT SUMMARY -->
 <div align="center">
-  <h1 align="center">Project Title</h1>
+  <h1 align="center">Sortiq</h1>
 
   <p align="center">
     {}
