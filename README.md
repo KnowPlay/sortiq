@@ -4,7 +4,7 @@
 - express: web framework; mongoose: db; dotenv: environment var
 - server.js: entry point for API
 - npm install nodemon -D : install dev dependencies so nodemon can listen to any chances in server.js
-- 
+- cant use 5000 bc on mac is AirPlay, use 8000 instead
 -->
 
 <!-- PROJECT SUMMARY -->
@@ -26,8 +26,9 @@
 ![GitHub forks](https://img.shields.io/github/forks/github_username/repo-name?style=social) ![GitHub stars](https://img.shields.io/github/stars/github_username/repo-name?style=social)
 
 <!-- [![CI](https://github.com/org-name/repo-name/actions/workflows/file-name.yml/badge.svg)](https://github.com/KnowPlay/org-name/repo-name/actions/workflows/file-name.yml) -->
-[![CI](https://github.com/KnowPlay/proj-tempest/actions/workflows/push_on_main.yml/badge.svg)](https://github.com/KnowPlay/proj-tempest/actions/workflows/push_on_main.yml)
-![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/github_username/repo-name?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/github_username/repo-name?color=pink) ![GitHub License](https://img.shields.io/github/license/github_username/repo-name?color=green) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat)
+
+[![CI](https://github.com/KnowPlay/sortiq/actions/workflows/push_on_main.yml/badge.svg)](https://github.com/KnowPlay/proj-tempest/actions/workflows/push_on_main.yml)
+![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/KnowPlay/sortiq?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/KnowPlay/sortiq?color=pink) ![GitHub License](https://img.shields.io/github/license/KnowPlay/sortiq?color=green) ![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat)
 
   </div>
 </div>
@@ -56,62 +57,83 @@
 </details>
 
 <!-- ABOUT -->
+
 ## :sunflower: About
+
 <!-- Add your project description here -->
 
 ### :hammer_and_wrench: Tech Stack
 
 #### :heavy_plus_sign: Development Tools
 
-- [ ] 
+- [ ]
 
 #### :heavy_plus_sign: Backend
 
-- [ ] 
+- [ ] `server.js`
 
 #### :heavy_plus_sign: Frontend
 
-- [ ] 
+- [ ]
 
 #### :heavy_plus_sign: DevOps
 
-- [ ] 
+- [ ]
 
 ### :mushroom: Features
 
-#### :heavy_plus_sign: 
+#### :heavy_plus_sign:
 
 - [ ]
 
-#### :heavy_plus_sign: 
+#### :heavy_plus_sign:
 
-- [ ] 
+- [ ]
 
 <!-- CONTENT -->
+
 ## :cactus: Documentation
 
 ### :honey_pot: Setup
+
 <!-- Add setup instructions here -->
 
+- `npm init -y`
+- `npm install express mongoose dotenv`
+  - `express`: web framework
+  - `mongoose`: db
+  - `dotenv`: environment var
+- `npm install nodemon -D`
+  - `nodemon`: listen to chances
+
 ### :apple: Development
+
 <!-- Add development details here -->
-* []()
-* []()
-* []()
+
+- `npm run dev`: start server
+
+<!--
+- []()
+- []() -->
 
 <!-- CONTRIBUTING -->
+
 ## :ear_of_rice: Contributing
+
 <!-- Add contribution guidelines here -->
+
 > 1. Fork the Project
 > 2. Create your Branch (`git checkout -b my-branch`)
 > 3. Commit your Changes (`git commit -m 'add my contribution'`)
 > 4. Push to the Branch (`git push --set-upstream origin my-branch`)
 > 5. Open a Pull Request
 
-
 <!-- LICENSE -->
+
 ## :pencil: License
+
 <!-- Add license information here -->
+
 This project is licensed under [MIT](https://opensource.org/licenses).
 
 <!-- ACKNOWLEDGEMENTS -->
