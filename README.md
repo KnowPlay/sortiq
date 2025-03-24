@@ -1,12 +1,3 @@
-<!-- NOTES
-- npm init -y
-- npm install express mongoose dotenv
-- express: web framework; mongoose: db; dotenv: environment var
-- server.js: entry point for API
-- npm install nodemon -D : install dev dependencies so nodemon can listen to any chances in server.js
-- cant use 5000 bc on mac is AirPlay, use 8000 instead
--->
-
 <!-- PROJECT SUMMARY -->
 <div align="center">
   <h1 align="center">Sortiq</h1>
@@ -70,7 +61,11 @@
 
 #### :heavy_plus_sign: Backend
 
-- [ ] `server.js`
+- [ ] config
+  - [ ] db.js
+- [ ] models
+  - [ ] product.model.js
+- [ ] server.js
 
 #### :heavy_plus_sign: Frontend
 
@@ -102,9 +97,13 @@
 - `npm install express mongoose dotenv`
   - `express`: web framework
   - `mongoose`: db
-  - `dotenv`: environment var
+  - `dotenv`: environment variable
 - `npm install nodemon -D`
-  - `nodemon`: listen to chances
+  - `nodemon`: listen to changes
+
+<!-- NOTES
+- cant use 5000 bc on mac is AirPlay, use 8000 instead
+-->
 
 ### :apple: Development
 
@@ -115,6 +114,13 @@
 <!--
 - []()
 - []() -->
+
+<!-- NOTES
+- Collection vs tables
+  - collection (have documents): no sql
+  - Tables: sql
+- "async": using async in route handler means that the function can use await to handle asynchronous operations (like database queries or external API calls) more cleanly. This approach avoids deeply nested callbacks and makes error handling simpler with try/catch blocks.
+-->
 
 <!-- CONTRIBUTING -->
 
