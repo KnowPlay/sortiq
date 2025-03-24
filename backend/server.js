@@ -59,7 +59,7 @@ app.put("/api/products/:id", async (req, res) => {
     //console.log("id:", id); // Logging the id
     //console.log(product); // Logging the product
 
-    if (!mongo.Types.ObjectId.isValid(id)) { // Checking if the id is a valid MongoDB id or not
+    if (!mongoose.Types.ObjectId.isValid(id)) { // Checking if the id is a valid MongoDB id or not
         return res.status(404).json({ success: false, message: "Product Not Found" }); // Sending an invalid product id message
     }
 
