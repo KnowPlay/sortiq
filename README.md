@@ -5,16 +5,16 @@
   <p align="center">
     {}
     <br>
-    <a href="https://github.com/github_username/repo_name/issues">» submit a suggestion </a>
+    <a href="https://github.com/KnowPlay/sortiq/issues">» submit a suggestion </a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">» report a bug </a>
+    <a href="https://github.com/KnowPlay/sortiq/issues">» report a bug </a>
     ·
-    <a href="https://github.com/github_username/repo_name">» contact </a>
+    <a href="https://github.com/KnowPlay/sortiq">» contact </a>
   </p>
 
   <div align="center">
 
-![GitHub forks](https://img.shields.io/github/forks/github_username/repo-name?style=social) ![GitHub stars](https://img.shields.io/github/stars/github_username/repo-name?style=social)
+![GitHub forks](https://img.shields.io/github/forks/KnowPlay/sortiq?style=social) ![GitHub stars](https://img.shields.io/github/stars/KnowPlay/sortiq?style=social)
 
 <!-- [![CI](https://github.com/org-name/repo-name/actions/workflows/file-name.yml/badge.svg)](https://github.com/KnowPlay/org-name/repo-name/actions/workflows/file-name.yml) -->
 
@@ -62,10 +62,10 @@
 #### :heavy_plus_sign: Backend
 
 - config
-  - [ ] db.js
+  - [x] db.js
 - models
-  - [ ] product.model.js
-- [ ] server.js
+  - [x] product.model.js
+- [x] server.js
 
 #### :heavy_plus_sign: Frontend
 
@@ -93,6 +93,8 @@
 
 <!-- Add setup instructions here -->
 
+Backend
+
 - `npm init -y`
 - `npm install express mongoose dotenv`
   - `express`: web framework
@@ -100,6 +102,14 @@
   - `dotenv`: environment variable
 - `npm install nodemon -D`
   - `nodemon`: listen to changes
+
+Frontend
+
+- `npm create vite@latest .`: initalize a new Vite project
+- `npm i`
+- Charkra UI
+  - dependencies : `npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion`
+  - snippets: `npx @chakra-ui/cli snippet add`
 
 <!-- NOTES
 - cant use 5000 bc on mac is AirPlay, use 8000 instead
@@ -109,7 +119,8 @@
 
 <!-- Add development details here -->
 
-- `npm run dev`: start server
+- `npm run dev`
+- Charkra UI
 
 <!--
 - []()
