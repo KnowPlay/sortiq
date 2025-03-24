@@ -61,9 +61,9 @@
 
 #### :heavy_plus_sign: Backend
 
-- [ ] config
+- config
   - [ ] db.js
-- [ ] models
+- models
   - [ ] product.model.js
 - [ ] server.js
 
